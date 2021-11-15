@@ -1,0 +1,102 @@
+.page {
+    min-width: 1100px;
+    /* мы ещё не умеем делать мобильную версию сайта, */
+    /* поэтому выше установлена минимальная ширина страницы */
+    max-width: 1600px;
+    /* выше установили ограничение по максимальной ширине */
+    margin: 0 auto;
+    /* выше для экранов больше 1600px отцентрировали весь контент */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.logo {
+    margin-left: -100px;
+    position: absolute;
+}
+
+.header {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    /* выше установили ограничения для секции */
+}
+
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__square-pic {
+    height: 568px;
+    width: 568px;
+}
+
+/* и элемента с модификатором */
+.table__cell_kaufman {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
+}
+
+.heading {
+    font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+    font-size: 102px;
+    line-height: 96px;
+    display: flex;
+    align-items: center;
+    margin: 0 64px 0;
+    min-width: 730px;
+}
+
+.mainpicture img{
+   /* position: absolute; */
+    margin-right: 10px;
+    width: 765px;
+    height: 608px;
+    margin-top: 100px;
+}
+
+h1 {
+	position: absolute;
+	top: 200px;
+	left: 0;
+	width: 100%;
+    max-width: 200px;
+}
+
+
+.subtitle {
+    position	: absolute;
+	top		    : 600px;
+	left		: 0;
+	width		: 100%;
+    line-height: 25px;
+    font-size: 18px;
+    max-width: 400px;
+    margin: 0 64px 0;
+}
+
+.brief {
+    width: 175px;
+    line-height: 1.2;
+    font-size: 18px;
+}
+
+.paragraph {
+    line-height: 34px;
+    font-size: 24px;
+    padding: 20px;
+    width: 80%;
+    min-width: 784px;
+    margin: 30px;
+
+
+}
+
+.two-columns {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.span-bold {
+    line-height: 34px;
+    font-size: 24px;
+}
